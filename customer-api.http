@@ -1,0 +1,37 @@
+### Create a customer
+#POST http://localhost:8080/api/customers
+#Content-Type: application/json
+#
+#{
+#  "customerId": "CUST-1002",
+#  "monthlyCharges": 85.50
+#}
+
+#PATCH http://localhost:8080/api/customers/1
+#Content-Type: application/json
+#
+#{
+#  "monthlyCharges": 99.50
+#}
+
+GET http://localhost:8080/api/customers/1
+//
+//GET http://localhost:8080/api/customers/1
+### Get customer by ID
+#GET http://localhost:8080/api/customers/1
+
+### Update customer
+#PUT http://localhost:8080/api/customers/1
+#Content-Type: application/json
+#
+#{
+#  "customerId": "7590-VHVEG",
+#  "tenure": 24,
+#  "monthlyCharges": 45.50,
+#  "churn": true
+#}
+
+### Delete customer
+#DELETE http://localhost:8080/api/customers/1
+
+
